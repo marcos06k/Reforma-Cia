@@ -1,75 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado abacaxi</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- booststrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reforma & Cia</title>
+  <!-- Logo para o icone no título -->
+  <link rel="icon" href="assets/img/logoReformaseciasemFundo.png" type="image/png">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Parte da esquerda (escrita, e parte para login) -->
-    <div id="div_esquerda">
 
-        <!-- vendendo a ideia -->
-        <section class="espacamento abnt">
-            <p>Se você está procurando um mercado com boa qualidade, aqui estão algumas razões pelas quais você deve
-                escolher o nosso:</p>
-            <ul>
-                <li><b>Produtos frescos e de alta qualidade:</b> Nós nos esforçamos para oferecer apenas os melhores
-                    produtos,
-                    garantindo que você obtenha o melhor valor pelo seu dinheiro.</li>
-                <li><b>Variedade de produtos:</b> Temos uma grande variedade de produtos para atender a todas as suas
-                    necessidades, desde alimentos frescos até roupas e acessórios.</li>
-                <li><b>Preços competitivos:</b> Oferecemos preços competitivos em todos os nossos produtos, para que
-                    você possa
-                    economizar dinheiro enquanto faz suas compras.</li>
-                <li><b>Atendimento ao cliente:</b> Nossa equipe de atendimento ao cliente é amigável e está sempre
-                    pronta para
-                    ajudá-lo com qualquer dúvida ou problema que você possa ter.</li>
-                <li><b>Localização conveniente:</b> Estamos convenientemente localizados no coração da cidade, tornando
-                    mais
-                    fácil para você fazer suas compras enquanto realiza outras atividades.</li>
-                <li><b>Ambiente agradável:</b> Nosso mercado tem um ambiente agradável e acolhedor, tornando suas
-                    compras uma
-                    experiência agradável e relaxante.</li>
-            </ul>
-            <p>Além disso, nos esforçamos para garantir que todos os nossos produtos estejam dentro do prazo de
-                validade, seguindo as normas da Anvisa. Nós nos preocupamos com a qualidade dos nossos produtos e
-                queremos garantir que você tenha a melhor experiência de compra possível. Venha nos visitar e veja por
-                si mesmo!</p>
-        </section>
 
-        <!-- parte para login -->
 
-        <div class="flex_login">
-            <div class="login">
-                <div class="formulario">
-                    <form action="">
-                        <div class="inputs">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="Digite aqui:">
-                        </div>
-                    </form>
-                </div>
-            </div>
+  <!-- menu -->
+
+  <nav class="navbar navbar-expand-sm navbar-light bg_menu fixed-top">
+    <div class="container-fluid">
+      <!-- Logo no menu -->
+      <a class="navbar-brand ms-3" href="index.html">
+        <img src="assets/img/logoReformaseciasemFundo.png" alt="Avatar Logo" style="width:70px;">
+      </a>
+      <!-- Botão que aparecerá quando determinada proporção de tela for encolhida -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Divs contendo os links das páginas -->
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <!-- Link página inicial -->
+          <li class="nav-item ms-2 ">
+            <a class="nav-link menu_li" href="index.html">Página Inicial</a>
+          </li>
+          <!-- Link página serviços -->
+          <li class="nav-item ms-2 ">
+            <a class="nav-link menu_li" href="servicos.html">Serviços</a>
+          </li>
+          <!-- Link página contatos -->
+          <li class="nav-item ms-2 ">
+            <a class="nav-link menu_li" href="contato.html">Contatos</a>
+          </li>
+          <!-- Link página quem somos -->
+          <li class="nav-item ms-2 ">
+            <a class="nav-link menu_li" href="quemSomos.html">Quem Somos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Imagem da página inicial que contem efeito parallax -->
+  <div class="parallax"> </div>
+
+
+
+
+
+
+  <!-- Seção "Bem vindo" da página -->
+  <section class="centralizar_section_bemvindo">
+    <!-- Div containeir "Bem vindo" -->
+    <div class="div_bem_vindo">
+      <!-- Título -->
+      <h1>Bem Vindo</h1>
+      <!-- Parágrafo -->
+      <p class="text_abnt">Com mais de 15 anos de experiência, a Reforma & Cia oferece serviços especializados em
+        Hidráulica, Elétrica, Alvenaria, Pintura e muito mais. Nossa equipe de profissionais altamente qualificados está
+        pronta para transformar sua casa ou empresa. Peça já o seu orçamento.</p>
+    </div>
+  </section>
+
+
+
+<!-- Serviços realizados -->
+<section class="centralizar_section_servicos">
+  <!-- Div container "serviços" -->
+  <div class="div_servicos">
+
+    <!-- Divs contendo os cards -->
+    <div class="div_cards">
+      <!-- Card "Pintura e Gesso" -->
+      <div class="card_servico">
+        <!-- Imagem do card -->
+        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+        <!-- Título  -->
+        <div class="card_titulo">
+          <h3>Pintura e Gesso</h3>
         </div>
+      </div>
+
+      <!-- Card "Elétrica e Hidráulica" -->
+      <div class="card_servico">
+        <!-- Imagem do card -->
+        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+        <!-- Título -->
+        <div class="card_titulo">
+          <h3>Elétrica e Hidráulica</h3>
+        </div>
+      </div>
+
+      <!-- Card "Alvenaria e Porcelanato" -->
+      <div class="card_servico">
+        <!-- imagem do card -->
+        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+        <!-- Título -->
+        <div class="card_titulo">
+          <h3>Alvenaria</h3>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Parte da direita (imagem com um tipo de marketing) -->
-    <div id="div_direita">
-        <!-- Imagem de fundo -->
-        <h1>O maior e com melhor qualidade em produtos
-            já visto até o
-            momento</h1>
-        <img class="papel_fundo" src="assets/img/papel de fundo.jpg">
-
-        <!-- Escrita para marketing -->
+    <!-- botao -->
+    <div class="div_botao">
+      <a href="" class="btn btn-outline-secondary">Mais Serviços</a>
     </div>
+
+  </div>
+
+</section>
+
+<!-- Orçamento -->
+<section class="centralizar_section_orcamento" >
+  <!-- Div containeir "Orçamento" -->
+  <div class="div_orcamento">
+    <!-- Título -->
+    <h2 style="text-align: center;">Solicite seu orçamento</h2>
+    <div>
+      <!-- Fomulário -->
+      <form class="form" action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
+        <!-- Hidden para desaticar o captcha -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- Hidden para redirecionar à Página de confirmação -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        <!-- Div para o nome e sobrenome ficarem um ao lado do outro -->
+        <div class="form_flex_nome_sobrenome ">
+          <!-- Campo input do nome -->
+          <input class="form_nome_sobrenome espacemnto_nome_sobrenome" type="text" name="Nome" required
+            placeholder="Nome:">
+          <!-- Campo input do sobrenome -->
+          <input class="form_nome_sobrenome" type="text" name="Sobrenome:" required placeholder="Sobrenome">
+        </div>
+        <!-- Campo input do email -->
+        <input class="espacamento" type="email" name="Email" required placeholder="Email:">
+        <!-- Campo input do Telefone  -->
+        <input class="espacamento" type="tel" name="Telefone" required placeholder="Telefone:">
+        <!-- Campo input do textarea "Mensagem" -->
+        <textarea class="espacamento" name="Mensagem" cols="30" rows="4" required
+          placeholder="Digite sua mensagem aqui:"></textarea>
+        <!-- Div para alinhar o botão ao centro -->
+        <div class="form_flex_botao">
+          <!-- Botão para enviar o formulário -->
+          <button class="espacamento btn btn-outline-secondary btn_tamanho" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  <!-- Depoimentos -->
+  <section class="centralizar_section_depoimentos">
+    <div class="div_depoimentos">
+      <h1 class="div-depoimentos_h1">Depoimentos</h1>
+
+      <div class="div_depoimentos_flex">
+        <div class="card_depoimento depoimento_espacamento_cards">
+          <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes."
+          </p>
+          <h6 class="h6_pessoa">Maria Teresa , Porto Alegre/RS</h6>
+        </div>
+        <div class="card_depoimento depoimento_espacamento_cards">
+          <p class="paragrafo_depoimento">"Profissionais realmente qualificados, fiz a reforma em toda a minha casa,
+            entregaram a obra no prazo e tudo ficou muito bom, recomendo."</p>
+          <h6 class="h6_pessoa">Anderson Martins, Porto Alegre/RS</h6>
+        </div>
+        <div class="card_depoimento depoimento_espacamento_cards">
+          <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes"
+          </p>
+          <h6 class="h6_pessoa">Marlene, Canoas/RS</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- footer -->
+  <footer class="bg-dark text-white pt-5 pb-4" style="margin-top: 100px;">
+
+    <div class="container text-center text-md-left">
+
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Áreas cobertas</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i>  Porto Alegre e região metropolitana
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Email para contato</h5>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>  theproviders98@gmail.com
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Numero para contato</h5>
+          <p>
+            <i class="fas fa-phone mr-3"></i>  +51 993893232
+          </p>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+
+          <div class="col-md-7 col-lg-8">
+            <p> Copyright ©️2023 Todos direitos reservados por:
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-warning">Reforma & Cia RS</strong>
+              </a>
+            </p>
+          </div>
+
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  </li>
+                  <li class="list-inline-item">
+
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="fab fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
 
 
 </body>
