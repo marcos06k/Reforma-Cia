@@ -17,6 +17,21 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<style>
+  .parallax {
+    /* The image used */
+    background-image: url("assets/img/fotoPaginaPrincipal.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
 <body>
 
 
@@ -60,8 +75,23 @@
 
 
 
-  <!-- Imagem da página inicial que contem efeito parallax -->
-  <div class="parallax"> </div>
+  <!-- imagem -->
+  <section class="centralizar_section_imagem parallax">
+    <div class="div_imagem">
+      <div class="imagem_text">
+        <h1>Toda Transformação
+          começa aqui: da ideia
+          ao acabamento</h1>
+
+        <h5>reforma & cia</h5>
+        <p>Porto Alegre e região Metropolitana</p>
+
+        <h5>reformaecia@live.com</h5>
+        <h5>(51) 9 8443-2011</h5>
+      </div>
+      
+    </div>
+  </section>
 
 
 
@@ -135,11 +165,12 @@
 <section class="centralizar_section_orcamento" >
   <!-- Div containeir "Orçamento" -->
   <div class="div_orcamento">
-    <!-- Título -->
+    
+      <!-- Título -->
     <h2 style="text-align: center;">Solicite seu orçamento</h2>
-    <div>
+    <div >
       <!-- Fomulário -->
-      <form class="form" action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
+      <form class="form " action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
         <!-- Hidden para desaticar o captcha -->
         <input type="hidden" name="_captcha" value="false">
         <!-- Hidden para redirecionar à Página de confirmação -->
@@ -166,6 +197,7 @@
         </div>
       </form>
     </div>
+    
   </div>
 </section>
 
@@ -188,21 +220,57 @@
 
       <div class="div_depoimentos_flex">
         <div class="card_depoimento depoimento_espacamento_cards">
+          
+          <h6 class="h6_pessoa">Maria Teresa</h6>
+          <h6 class="h6_pessoa">Porto Alegre/RS</h6>
+          <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          
           <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes."
           </p>
-          <h6 class="h6_pessoa">Maria Teresa , Porto Alegre/RS</h6>
+          
         </div>
+
         <div class="card_depoimento depoimento_espacamento_cards">
+          
+          <h6 class="h6_pessoa">Anderson Martins</h6>
+          <h6 class="h6_pessoa">Porto Alegre/RS</h6>
+          <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          
           <p class="paragrafo_depoimento">"Profissionais realmente qualificados, fiz a reforma em toda a minha casa,
-            entregaram a obra no prazo e tudo ficou muito bom, recomendo."</p>
-          <h6 class="h6_pessoa">Anderson Martins, Porto Alegre/RS</h6>
+            entregaram a obra no prazo e tudo ficou muito bom, recomendo."
+          </p>
+          
         </div>
         <div class="card_depoimento depoimento_espacamento_cards">
+          
+          <h6 class="h6_pessoa">Marlene</h6>
+          <h6 class="h6_pessoa">Canoas/RS</h6>
+          <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
+          
           <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes"
           </p>
-          <h6 class="h6_pessoa">Marlene, Canoas/RS</h6>
+          
         </div>
-      </div>
+
+
+
+
+
+
+        
+        
     </div>
   </section>
 
@@ -210,30 +278,30 @@
 
   
   <!-- footer -->
-  <footer class="bg-dark text-white pt-5 pb-4" style="margin-top: 100px;">
+  <footer class="text-white pt-5 pb-4" style="background-color: black;">
 
     <div class="container text-center text-md-left">
 
       <div class="row text-center text-md-left">
 
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Áreas cobertas</h5>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Áreas cobertas</h5>
           <p>
             <i class="fas fa-home mr-3"></i>  Porto Alegre e região metropolitana
           </p>
         </div>
 
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Email para contato</h5>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Email para contato</h5>
           <p>
-            <i class="fas fa-envelope mr-3"></i>  theproviders98@gmail.com
+            <i class="fas fa-envelope mr-3"></i>  reformaecia@live.com
           </p>
         </div>
 
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Numero para contato</h5>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50"> Numero para contato</h5>
           <p>
-            <i class="fas fa-phone mr-3"></i>  +51 993893232
+            <i class="fas fa-phone mr-3"></i>  (51) 9 8443-2011
           </p>
         </div>
         <hr class="mb-4">
@@ -242,7 +310,12 @@
           <div class="col-md-7 col-lg-8">
             <p> Copyright ©️2023 Todos direitos reservados por:
               <a href="#" style="text-decoration: none;">
-                <strong class="text-warning">Reforma & Cia RS</strong>
+                <strong class="text-white-50">Reforma & Cia RS</strong>
+              </a>
+            </p>
+            <p> Desenvolvido por
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-white-50">Marcos Miguel Biedermann</strong>
               </a>
             </p>
           </div>
@@ -251,25 +324,9 @@
             <div class="text-center text-md-right">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                  </li>
                   <li class="list-inline-item">
 
-                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-
-                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                      <i class="fab fa-google-plus"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-
-                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <a href="https://www.instagram.com/reformaecias/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
