@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Marcos Miguel Biedermann da Silva">
+
   <title>Reforma & Cia</title>
+
   <!-- Logo para o icone no título -->
   <link rel="icon" href="assets/img/logoReformaseciasemFundo.png" type="image/png">
   <!-- bootstrap -->
@@ -15,26 +19,26 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- css -->
   <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <style>
   .parallax {
     /* The image used */
     background-image: url("assets/img/fotoPaginaPrincipal.jpg");
-  
+
     /* Set a specific height */
     min-height: 700px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  </style>
+</style>
+
 <body>
-
-
 
   <!-- menu -->
 
@@ -74,7 +78,6 @@
 
 
 
-
   <!-- imagem -->
   <section class="centralizar_section_imagem parallax">
     <div class="div_imagem">
@@ -89,12 +92,9 @@
         <h5>reformaecia@live.com</h5>
         <h5>(51) 9 8443-2011</h5>
       </div>
-      
+
     </div>
   </section>
-
-
-
 
 
 
@@ -113,114 +113,106 @@
 
 
 
-<!-- Serviços realizados -->
-<section class="centralizar_section_servicos">
-  <!-- Div container "serviços" -->
-  <div class="div_servicos">
+  <!-- Serviços realizados -->
+  <section class="centralizar_section_servicos">
+    <!-- Div container "serviços" -->
+    <div class="div_servicos">
 
-    <!-- Divs contendo os cards -->
-    <div class="div_cards">
-      <!-- Card "Pintura e Gesso" -->
-      <div class="card_servico">
-        <!-- Imagem do card -->
-        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
-        <!-- Título  -->
-        <div class="card_titulo">
-          <h3>Pintura e Gesso</h3>
+      <!-- Divs contendo os cards -->
+      <div class="div_cards">
+        <!-- Card "Pintura e Gesso" -->
+        <div class="card_servico">
+          <!-- Imagem do card -->
+          <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+          <!-- Título  -->
+          <div class="card_titulo">
+            <h3>Pintura e Gesso</h3>
+          </div>
+        </div>
+
+        <!-- Card "Elétrica e Hidráulica" -->
+        <div class="card_servico">
+          <!-- Imagem do card -->
+          <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+          <!-- Título -->
+          <div class="card_titulo">
+            <h3>Elétrica e Hidráulica</h3>
+          </div>
+        </div>
+
+        <!-- Card "Alvenaria e Porcelanato" -->
+        <div class="card_servico">
+          <!-- imagem do card -->
+          <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
+          <!-- Título -->
+          <div class="card_titulo">
+            <h3>Alvenaria</h3>
+          </div>
         </div>
       </div>
 
-      <!-- Card "Elétrica e Hidráulica" -->
-      <div class="card_servico">
-        <!-- Imagem do card -->
-        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
-        <!-- Título -->
-        <div class="card_titulo">
-          <h3>Elétrica e Hidráulica</h3>
-        </div>
-      </div>
-
-      <!-- Card "Alvenaria e Porcelanato" -->
-      <div class="card_servico">
-        <!-- imagem do card -->
-        <img class="card_img" src="assets/img/fotoPaginaPrincipal.jpg" alt="">
-        <!-- Título -->
-        <div class="card_titulo">
-          <h3>Alvenaria</h3>
-        </div>
+      <!-- botao -->
+      <div class="div_botao">
+        <a href="servicos.html " class="btn btn-outline-secondary">Mais Serviços</a>
       </div>
 
     </div>
+  </section>
 
-    <!-- botao -->
-    <div class="div_botao">
-      <a href="" class="btn btn-outline-secondary">Mais Serviços</a>
-    </div>
 
-  </div>
 
-</section>
+  <!-- Orçamento -->
+  <section class="centralizar_section_orcamento">
+    <!-- Div containeir "Orçamento" -->
+    <div class="div_orcamento">
 
-<!-- Orçamento -->
-<section class="centralizar_section_orcamento" >
-  <!-- Div containeir "Orçamento" -->
-  <div class="div_orcamento">
-    
       <!-- Título -->
-    <h2 style="text-align: center;">Solicite seu orçamento</h2>
-    <div >
+      <h2 style="text-align: center;">Solicite seu orçamento</h2>
+
       <!-- Fomulário -->
-      <form class="form " action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
-        <!-- Hidden para desaticar o captcha -->
-        <input type="hidden" name="_captcha" value="false">
-        <!-- Hidden para redirecionar à Página de confirmação -->
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-        <!-- Div para o nome e sobrenome ficarem um ao lado do outro -->
-        <div class="form_flex_nome_sobrenome ">
-          <!-- Campo input do nome -->
-          <input class="form_nome_sobrenome espacemnto_nome_sobrenome" type="text" name="Nome" required
-            placeholder="Nome:">
-          <!-- Campo input do sobrenome -->
-          <input class="form_nome_sobrenome" type="text" name="Sobrenome:" required placeholder="Sobrenome">
-        </div>
-        <!-- Campo input do email -->
-        <input class="espacamento" type="email" name="Email" required placeholder="Email:">
-        <!-- Campo input do Telefone  -->
-        <input class="espacamento" type="tel" name="Telefone" required placeholder="Telefone:">
-        <!-- Campo input do textarea "Mensagem" -->
-        <textarea class="espacamento" name="Mensagem" cols="30" rows="4" required
-          placeholder="Digite sua mensagem aqui:"></textarea>
-        <!-- Div para alinhar o botão ao centro -->
-        <div class="form_flex_botao">
-          <!-- Botão para enviar o formulário -->
-          <button class="espacamento btn btn-outline-secondary btn_tamanho" type="submit">Enviar</button>
-        </div>
-      </form>
+      <div>
+        <form class="form " action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
+          <!-- Hidden para desaticar o captcha -->
+          <input type="hidden" name="_captcha" value="false">
+          <!-- Hidden para redirecionar à Página de confirmação -->
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+          <!-- Div para o nome e sobrenome ficarem um ao lado do outro -->
+          <div class="form_flex_nome_sobrenome ">
+            <!-- Campo input do nome -->
+            <input class="form_nome_sobrenome espacemnto_nome_sobrenome" type="text" name="Nome" required
+              placeholder="Nome:">
+            <!-- Campo input do sobrenome -->
+            <input class="form_nome_sobrenome" type="text" name="Sobrenome:" required placeholder="Sobrenome">
+          </div>
+          <!-- Campo input do email -->
+          <input class="espacamento" type="email" name="Email" required placeholder="Email:">
+          <!-- Campo input do Telefone  -->
+          <input class="espacamento" type="tel" name="Telefone" required placeholder="Telefone:">
+          <!-- Campo input do textarea "Mensagem" -->
+          <textarea class="espacamento" name="Mensagem" cols="30" rows="4" required
+            placeholder="Digite sua mensagem aqui:"></textarea>
+          <!-- Div para alinhar o botão ao centro -->
+          <div class="form_flex_botao">
+            <!-- Botão para enviar o formulário -->
+            <button class="espacamento btn btn-outline-secondary btn_tamanho" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+
     </div>
-    
-  </div>
-</section>
-
-
-  
-  
-
-
-
-
-
-
+  </section>
 
 
 
   <!-- Depoimentos -->
   <section class="centralizar_section_depoimentos">
     <div class="div_depoimentos">
+
       <h1 class="div-depoimentos_h1">Depoimentos</h1>
 
       <div class="div_depoimentos_flex">
         <div class="card_depoimento depoimento_espacamento_cards">
-          
+
           <h6 class="h6_pessoa">Maria Teresa</h6>
           <h6 class="h6_pessoa">Porto Alegre/RS</h6>
           <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
@@ -228,14 +220,15 @@
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
-          
-          <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes."
+
+          <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito
+            competentes."
           </p>
-          
+
         </div>
 
         <div class="card_depoimento depoimento_espacamento_cards">
-          
+
           <h6 class="h6_pessoa">Anderson Martins</h6>
           <h6 class="h6_pessoa">Porto Alegre/RS</h6>
           <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
@@ -243,14 +236,14 @@
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
-          
+
           <p class="paragrafo_depoimento">"Profissionais realmente qualificados, fiz a reforma em toda a minha casa,
             entregaram a obra no prazo e tudo ficou muito bom, recomendo."
           </p>
-          
+
         </div>
         <div class="card_depoimento depoimento_espacamento_cards">
-          
+
           <h6 class="h6_pessoa">Marlene</h6>
           <h6 class="h6_pessoa">Canoas/RS</h6>
           <i class="fas fa-star" style="color: #fac012; margin: 4% 0 0 5%;"></i>
@@ -258,25 +251,16 @@
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
           <i class="fas fa-star" style="color: #fac012; margin: 0 0 0 0;"></i>
-          
+
           <p class="paragrafo_depoimento">"Ótimo trabalho, já trabalho com eles a anos e sempre foram muito competentes"
           </p>
-          
+
         </div>
-
-
-
-
-
-
-        
-        
-    </div>
+      </div>
   </section>
 
 
 
-  
   <!-- footer -->
   <footer class="text-white pt-5 pb-4" style="background-color: black;">
 
@@ -287,21 +271,21 @@
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
           <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Áreas cobertas</h5>
           <p>
-            <i class="fas fa-home mr-3"></i>  Porto Alegre e região metropolitana
+            <i class="fas fa-home mr-3"></i> Porto Alegre e região metropolitana
           </p>
         </div>
 
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
           <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Email para contato</h5>
           <p>
-            <i class="fas fa-envelope mr-3"></i>  reformaecia@live.com
+            <i class="fas fa-envelope mr-3"></i> reformaecia@live.com
           </p>
         </div>
 
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
           <h5 class="text-uppercase mb-4 font-weight-bold text-white-50"> Numero para contato</h5>
           <p>
-            <i class="fas fa-phone mr-3"></i>  (51) 9 8443-2011
+            <i class="fas fa-phone mr-3"></i> (51) 9 8443-2011
           </p>
         </div>
         <hr class="mb-4">
@@ -324,13 +308,14 @@
             <div class="text-center text-md-right">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <li class="list-inline-item">
+                <li class="list-inline-item">
 
-                    <a href="https://www.instagram.com/reformaecias/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                
+                  <a href="https://www.instagram.com/reformaecias/" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
               </ul>
             </div>
 
