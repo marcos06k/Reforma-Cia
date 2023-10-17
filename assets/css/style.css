@@ -14,6 +14,14 @@ body {
     text-align: justify;
 }
 
+/* titulo das paginas */
+.titulo_pagina{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 0 0;
+}
+
+
 
 /* Menu */
 .bg_menu {
@@ -262,7 +270,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 150px 0 300px 0;
+    margin: 80px 0 300px 0;
     
     width: 100%;
 
@@ -329,7 +337,7 @@ body {
     align-items: center;
     
     width: 100%;
-    margin: 250px 0 350px 0;
+    margin: 100px 0 350px 0;
 }
 
 .div_contato{
