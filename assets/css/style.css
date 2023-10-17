@@ -18,7 +18,7 @@ body {
 .titulo_pagina{
     display: flex;
     justify-content: center;
-    margin: 150px 0 0 0;
+    margin: 180px 0 0 0;
 }
 
 
@@ -270,7 +270,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 80px 0 300px 0;
+    margin: 70px 0 300px 0;
     
     width: 100%;
 
