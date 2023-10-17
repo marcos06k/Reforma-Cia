@@ -115,7 +115,7 @@ body {
 .card_servico{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
-    margin: 9% 3% 0 3%;
+    margin: 2% 2% 2% 2%;
     width: 300px;
     height: 230px;
 }
@@ -262,7 +262,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 150px 0 0 0;
+    margin: 150px 0 300px 0;
     
     width: 100%;
 
@@ -289,7 +289,7 @@ body {
     border-radius: 8px;
     margin: 9% 3% 0 3%;
     width: 300px;
-    height: 386px;
+    height: 400px;
     
 }
 
@@ -299,12 +299,12 @@ body {
     align-items: center;
     
     width: 100%;
-    height: 220px;
+    height: 210px;
 }
 
 .card_img_servicos{
-    width: 280px; 
-    height: 200px;
+    width: 250px; 
+    height: 180px;
     border-radius: 5px;
     
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
@@ -314,6 +314,49 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
+.div_card_titulo_formatacao{
+    width: 250px;
+    line-height: 1.3;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/* Fim pagina serviços */
+
+/* Página contato */
+
+.centralizar_section_contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    margin: 250px 0 350px 0;
+}
+
+.div_contato{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.div_entre_em_contato{
+    width: 275px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div_fale_conosco{
+    width: 378px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+}
 

@@ -21,8 +21,9 @@
   <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
-    <!-- menu -->
+  <!-- menu -->
 
   <nav class="navbar navbar-expand-sm navbar-light bg_menu fixed-top">
     <div class="container-fluid">
@@ -60,5 +61,117 @@
 
 
 
+  <section class="centralizar_section_contato">
+    <div class="div_contato">
+
+      <div class="div_entre_em_contato">
+        <h3>ENTRE EM CONTATO</h3>
+
+        <p>Av. Baltazar de Oliveira Garcia, 459 Porto Alegre – RS 91180-840</p>  
+        <p>reformaecia@live.com</p>     
+        <p>Telefone: 51-98443.2011</p>
+        <p>Instagram: @reformaecias</p>
+
+        <h4>ÁREAS COBERTAS</h4>
+        <p>Porto Alegre e região metropolitana</p>
+      </div>
+
+      <!-- Div containeir "Fale Conosco" -->
+      <div class="div_fale_conosco">
+
+          <!-- Título -->
+          <h2>Fale Conosco</h2>
+          <!-- Fomulário -->
+          <div>
+            <form class="form " action="https://formsubmit.co/biedermannmarcos@gmail.com" method="POST">
+              <!-- Hidden para desaticar o captcha -->
+              <input type="hidden" name="_captcha" value="false">
+              <!-- Hidden para redirecionar à Página de confirmação -->
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+              <!-- Div para o nome e sobrenome ficarem um ao lado do outro -->
+              <div class="form_flex_nome_sobrenome ">
+                <!-- Campo input do nome -->
+                <input class="form_nome_sobrenome espacemnto_nome_sobrenome" type="text" name="Nome" required
+                  placeholder="Nome:">
+                <!-- Campo input do sobrenome -->
+                <input class="form_nome_sobrenome" type="text" name="Sobrenome:" required placeholder="Sobrenome">
+              </div>
+              <!-- Campo input do email -->
+              <input class="espacamento" type="email" name="Email" required placeholder="Email:">
+              <!-- Campo input do Telefone  -->
+              <input class="espacamento" type="tel" name="Telefone" required placeholder="Telefone:">
+              <!-- Campo input do textarea "Mensagem" -->
+              <textarea class="espacamento" name="Mensagem" cols="30" rows="4" required
+                placeholder="Digite sua mensagem aqui:"></textarea>
+              <!-- Div para alinhar o botão ao centro -->
+              <div class="form_flex_botao">
+                <!-- Botão para enviar o formulário -->
+                <button class="espacamento btn btn-outline-secondary btn_tamanho" type="submit">Enviar</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- footer -->
+   <footer class="text-white pt-5 pb-4" style="background-color: black;">
+
+    <div class="container text-center text-md-left">
+
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Áreas cobertas</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> Porto Alegre e região metropolitana
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50">Email para contato</h5>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> reformaecia@live.com
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50"> Numero para contato</h5>
+          <p>
+            <i class="fas fa-phone mr-3"></i> (51) 9 8443-2011
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white-50"> Rede Sociais</h5>
+          <p>
+            <a href="https://www.instagram.com/reformaecias/" class="btn-floating btn-sm text-white"
+              style="font-size: 23px;" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </p>
+        </div>
+
+        <hr class="mb-4">
+        <div class="row align-items-center">
+
+          <div >
+            <p> Copyright ©️2023 Todos direitos reservados por:
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-white-50">Reforma & Cia RS</strong>
+              </a>
+            </p>
+           
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
