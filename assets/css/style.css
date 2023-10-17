@@ -344,7 +344,7 @@ body {
     height: 321px;
     display: flex;
     flex-direction: column;
-    
+    margin: 5% 0 0 0;
 }
 
 .div_fale_conosco{
@@ -352,5 +352,7 @@ body {
     height: 321px;
     display: flex;
     flex-direction: column;
+
+    margin: 5% 0 0 0;
 }
 
