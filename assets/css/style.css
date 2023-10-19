@@ -54,7 +54,7 @@ body {
 }
     
 @media (min-width: 769px){
-    #img_720px{
+    #img_768px{
         width: 100%;
         height: auto;
     }
@@ -68,7 +68,7 @@ body {
         width: 100%;
         height: auto;
     }
-    #img_720px {
+    #img_768px {
         display: none;
     }
 }
