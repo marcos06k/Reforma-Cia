@@ -403,5 +403,7 @@ body {
     border-radius: 100%;
 }
 
-
+.div_sobrenos img:active{
+    width: 1000px;
+}
 
