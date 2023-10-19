@@ -42,7 +42,36 @@ body {
 
 /* Banner */
 
+.centralizar_section_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    height: auto;
+
+    margin: 103px 0 0 0;
+}
+    
+@media (min-width: 769px){
+    #img_720px{
+        width: 100%;
+        height: auto;
+    }
+    #img_1920px {
+        display: none;
+     }
+}
+
+@media (max-width: 768px){
+    #img_1920px{
+        width: 100%;
+        height: auto;
+    }
+    #img_720px {
+        display: none;
+    }
+}
 
 
 
