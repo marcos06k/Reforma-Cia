@@ -407,3 +407,38 @@ body {
     width: 1000px;
 }
 
+
+/* Galeria */
+
+.section_galeria{
+    display: flex;
+    justify-content: center;
+
+    margin: 150px 0 80px 0;
+    width: 100%;
+
+}
+
+.div_galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 60%;
+}
+
+.div_galeria img{
+    width: 300px;
+    height: 350px;
+    margin: 50px 0 0 0;
+}
+
+.div_galeria img:hover{
+    opacity: 85%;
+}
+
+
+.div_galeria img:active{
+    width: 400px;
+    height: 450px;
+}
