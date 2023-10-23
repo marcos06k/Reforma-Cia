@@ -121,12 +121,12 @@ body {
     margin: 0 0 0 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width:870px) {
     #section_servicos_max-768px{
         display: none;
     }
     .div_servicos {
-        width: 60%;
+        width: 850px;
         display: flex;
         flex-direction: column;
         margin: 6% 0 8% 0;
@@ -134,7 +134,7 @@ body {
     .card_servico {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 8px;
-        margin: 2% 2% 2% 40px;
+        margin: 2% 0 2% 83px;
         width: 300px;
         height: 290px;
     }
@@ -150,14 +150,14 @@ body {
 
 
 /* cell */
-@media (max-width: 768px) {
+@media (max-width: 869px) {
     #section_servicos_min-769px{
         display: none;
     }
     .card_servico {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 8px;
-        margin: 2% 2% 2% 40px;
+        margin: 2% 0 2% 40px;
         width: 300px;
         height: 290px;
     }
