@@ -66,11 +66,7 @@
 
 
 
-  <!-- imagem -->
-  <section class="centralizar_section_banner">
-    <img id="img_768px" src="assets/img/img_img/Banner1920px.png" alt="">
-    <img id="img_1920px" src="assets/img/img_img/Banner768px.png" alt="">
-  </section>
+
 
 
 
@@ -89,53 +85,274 @@
 
 
 
+
   <!-- Serviços realizados -->
-  <section class="centralizar_section_servicos background_section_cinza">
+  <section id="section_servicos_min-769px" class="centralizar_section_servicos background_section_cinza">
+
     <!-- Div container "serviços" -->
     <div class="div_servicos">
-      <h2 style="text-align: center;">Serviços</h2>
-      <!-- Divs contendo os cards -->
-      <div class="div_cards">
-        <!-- Card "Pintura e Gesso" -->
-        <div class="card_servico">
-          <!-- Imagem do card -->
-          <img class="card_img" src="assets/img/img_cards_servicos/Pintura.jpg" alt="">
-          <!-- Título  -->
-          <div class="card_titulo">
-            <h3>Pintura e Gesso</h3>
-          </div>
+      <h1>Serviços</h1>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+
         </div>
 
-        <!-- Card "Elétrica e Hidráulica" -->
-        <div class="card_servico">
-          <!-- Imagem do card -->
-          <img class="card_img" src="assets/img/img_cards_servicos/eletrica.jpg" alt="">
-          <!-- Título -->
-          <div class="card_titulo">
-            <h3>Elétrica e Hidráulica</h3>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active ">
+            <div class="aaaa">
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/manutencao.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Manutenção Mensal</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/eletrica.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Elétrica</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div class="carousel-item ">
+            <div class="card_servico">
+              <!-- Imagem do card -->
+              <img class="card_img" src="assets/img/img_cards_servicos/azulejo.jpg" alt="">
+              <!-- Título  -->
+              <div class="card_titulo">
+                <h3>Revestimentos</h3>
+                <!-- botao -->
+                <div class="div_botao">
+                  <nav>
+                    <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="card_servico">
+              <!-- Imagem do card -->
+              <img class="card_img" src="assets/img/img_cards_servicos/Pintura.jpg" alt="">
+              <!-- Título  -->
+              <div class="card_titulo">
+                <h3>Pintura</h3>
+                <!-- botao -->
+                <div class="div_botao">
+                  <nav>
+                    <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="card_servico">
+              <!-- Imagem do card -->
+              <img class="card_img" src="assets/img/img_cards_servicos/hidraulica.jpg" alt="">
+              <!-- Título  -->
+              <div class="card_titulo">
+                <h3>Hidráulica</h3>
+                <!-- botao -->
+                <div class="div_botao">
+                  <nav>
+                    <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="card_servico">
+              <!-- Imagem do card -->
+              <img class="card_img" src="assets/img/img_cards_servicos/alvenaria.jpg" alt="">
+              <!-- Título  -->
+              <div class="card_titulo">
+                <h3>Alvenaria</h3>
+                <!-- botao -->
+                <div class="div_botao">
+                  <nav>
+                    <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <!-- Card "Alvenaria e Porcelanato" -->
-        <div class="card_servico">
-          <!-- imagem do card -->
-          <img class="card_img" src="assets/img/img_cards_servicos/alvenaria.jpg" alt="">
-          <!-- Título -->
-          <div class="card_titulo">
-            <h3>Alvenaria</h3>
-          </div>
-        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-
-      <!-- botao -->
-      <div class="div_botao">
-        <nav>
-          <a href="servicos.html " class="btn btn-outline-secondary">Mais Serviços</a>
-        </nav>
-      </div>
-
     </div>
+
   </section>
+
+
+  <!-- Serviços realizados -->
+  <section id="section_servicos_max-76px" class="centralizar_section_servicos background_section_cinza">
+
+    <!-- Div container "serviços" -->
+    <div class="div_servicos">
+      <h1>Serviços</h1>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active ">
+
+            <div class="card_servico">
+              <!-- Imagem do card -->
+              <img class="card_img" src="assets/img/img_cards_servicos/eletrica.jpg" alt="">
+              <!-- Título  -->
+              <div class="card_titulo">
+                <h3>Elétrica</h3>
+                <!-- botao -->
+                <div class="div_botao">
+                  <nav>
+                    <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item ">
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/azulejo.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Revestimentos</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/Pintura.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Pintura</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/hidraulica.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Hidráulica</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="card_servico">
+                <!-- Imagem do card -->
+                <img class="card_img" src="assets/img/img_cards_servicos/alvenaria.jpg" alt="">
+                <!-- Título  -->
+                <div class="card_titulo">
+                  <h3>Alvenaria</h3>
+                  <!-- botao -->
+                  <div class="div_botao">
+                    <nav>
+                      <a href="servicos.html " class="btn btn-outline-secondary">Saiba mais</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      div
+
+  </section>
+
+
+
 
 
 

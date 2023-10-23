@@ -4,7 +4,7 @@ body {
 
 /* backgound cinza das sections */
 
-.background_section_cinza{
+.background_section_cinza {
     background-color: #e9e9e9;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 /* titulo das paginas */
-.titulo_pagina{
+.titulo_pagina {
     display: flex;
     justify-content: center;
     margin: 180px 0 0 0;
@@ -28,7 +28,7 @@ body {
     background-color: #d4d4d4;
 }
 
-.menu_li{
+.menu_li {
     border-radius: 5px;
 }
 
@@ -40,59 +40,28 @@ body {
 
 /* Página Index */
 
-/* Banner */
-
-.centralizar_section_banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: auto;
-
-    margin: 103px 0 0 0;
-}
-    
-@media (min-width: 769px){
-    #img_768px{
-        width: 100%;
-        height: auto;
-    }
-    #img_1920px {
-        display: none;
-     }
-}
-
-@media (max-width: 768px){
-    #img_1920px{
-        width: 100%;
-        height: auto;
-    }
-    #img_768px {
-        display: none;
-    }
-}
 
 
 
-.imagem_text{
+
+.imagem_text {
     margin: 5%;
     width: 60%;
 
-    
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
 /* parte do Bem Vindo */
-.centralizar_section_bemvindo{
+.centralizar_section_bemvindo {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin: 0 0 0 0;
-    
+    margin: 103px 0 0 0;
+
     width: 100%;
 }
 
@@ -103,75 +72,120 @@ body {
     width: 60%;
 }
 
+
+
+
+
 /* parte do servicos realizados */
-.centralizar_section_servicos{
+.centralizar_section_servicos {
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin: 0 0 0 0;
-    
+
     width: 100%;
-
-    
-
 }
 
-.div_servicos{
-    width: 60%;
+.div_servicos {
     display: flex;
     flex-direction: column;
     margin: 6% 0 8% 0;
 }
 
-.div_cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.div_servicos h1 {
+    text-align: center;
 }
 
-
-.card_servico{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
-    margin: 2% 2% 2% 2%;
-    width: 300px;
-    height: 270px;
+.carousel-inner {
+    width: 380px;
+    padding: 30px 0 30px;
 }
-.card_img{
-    width: 100%; 
+
+.card_img {
+    width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.card_titulo{
-    height: 27%;
+
+.card_titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.div_botao{
+.div_botao {
     display: flex;
     justify-content: center;
-    margin: 6% 0 0 0;
+    margin: 0 0 0 0;
+}
+
+@media (min-width: 769px) {
+    #section_servicos_max-768px{
+        display: none;
+    }
+    .div_servicos {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 6% 0 8% 0;
+    }
+    .card_servico {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin: 2% 2% 2% 40px;
+        width: 300px;
+        height: 290px;
+    }
+    .carousel-inner {
+        width: 100%;
+        padding: 30px 0 30px;
+    }
+    .aaaa{
+        display: flex;
+    }
 }
 
 
+
+/* cell */
+@media (max-width: 768px) {
+    #section_servicos_min-769px{
+        display: none;
+    }
+    .card_servico {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin: 2% 2% 2% 40px;
+        width: 300px;
+        height: 290px;
+    }
+    .carousel-inner {
+        width: 380px;
+        padding: 30px 0 30px;
+    }
+}
+
+
+
+
+
 /* parte do orçamento */
-.centralizar_section_orcamento{
+.centralizar_section_orcamento {
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin: 0 0 0 0;
-    
+
 
     width: 100%;
 
 }
-.div_orcamento{
-    
+
+.div_orcamento {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,42 +195,42 @@ body {
 }
 
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
 
     width: 100%;
 }
 
-.form_flex_nome_sobrenome{
+.form_flex_nome_sobrenome {
     display: flex;
 }
 
-.form_nome_sobrenome{
+.form_nome_sobrenome {
     width: 48%;
 }
 
-.espacemnto_nome_sobrenome{
+.espacemnto_nome_sobrenome {
     margin: 0 4% 0 0;
 }
 
-.espacamento{
+.espacamento {
     margin: 3% 0 0 0;
 }
 
-.form_flex_botao{
+.form_flex_botao {
     display: flex;
     justify-content: center;
 }
 
-.btn_tamanho{
+.btn_tamanho {
     width: 100px;
 }
 
 
 /* Depoimentos */
 
-.centralizar_section_depoimentos{
+.centralizar_section_depoimentos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,46 +238,48 @@ body {
     margin: 0 0 0 0;
     width: 100%;
 
-    
-    
+
+
 }
-.div_depoimentos{
+
+.div_depoimentos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     width: 60%;
     margin: 8% 0 9% 0;
     border-radius: 15px;
-    
+
 }
 
-.div_depoimentos_flex{
+.div_depoimentos_flex {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    
+
     width: 100%;
- 
+
 }
 
-.card_depoimento{
+.card_depoimento {
     border-radius: 8px;
 
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.depoimento_espacamento_cards{
+
+.depoimento_espacamento_cards {
     margin: 2% 2% 2% 2%;
 }
 
-.paragrafo_depoimento{
+.paragrafo_depoimento {
     font-size: 15px;
     margin: 8% 5% 10% 5%;
 }
 
-.h6_pessoa{
+.h6_pessoa {
     font-size: 15px;
     margin: 3% 5% 0% 5%;
 }
@@ -275,62 +291,63 @@ body {
 /* Página serviços */
 
 /* parte do servicos realizados */
-.centralizar_section_servicos_servicos{
+.centralizar_section_servicos_servicos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     margin: 70px 0 300px 0;
-    
+
     width: 100%;
 
-    
+
 
 }
 
-.div_servicos_servicos{
+.div_servicos_servicos {
     width: 60%;
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0;
 }
 
-.div_cards_servicos{
+.div_cards_servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 
-.card_servico_servicos{
+.card_servico_servicos {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
     margin: 9% 3% 0 3%;
     width: 300px;
     height: 400px;
-    
+
 }
 
 
-.card_img_servicos{
-    width: 100%; 
+.card_img_servicos {
+    width: 100%;
     height: 210px;
-    
+
     border-radius: 10px;
-    
+
 }
-.card_titulo_servicos{
+
+.card_titulo_servicos {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
     margin: 4% 0 0 0;
     width: 100%;
 }
 
-.div_card_titulo_formatacao{
+.div_card_titulo_formatacao {
     width: 90%;
     line-height: 1.3;
     text-align: justify;
@@ -342,23 +359,23 @@ body {
 
 /* Página contato */
 
-.centralizar_section_contato{
+.centralizar_section_contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     width: 100%;
     margin: 100px 0 350px 0;
 }
 
-.div_contato{
+.div_contato {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 60%;
 }
 
-.div_entre_em_contato{
+.div_entre_em_contato {
     width: 275px;
     height: 321px;
     display: flex;
@@ -366,7 +383,7 @@ body {
     margin: 5% 0 0 0;
 }
 
-.div_fale_conosco{
+.div_fale_conosco {
     width: 378px;
     height: 321px;
     display: flex;
@@ -375,13 +392,13 @@ body {
     margin: 5% 0 0 0;
 }
 
-.div_entre_em_contato h4{
+.div_entre_em_contato h4 {
     margin-top: 35px;
 }
 
 /* Sobre nos */
 
-.centralizar_section_sobrenos_white{
+.centralizar_section_sobrenos_white {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -389,16 +406,17 @@ body {
     width: 100%;
 }
 
-.espacamento_menu_primeira_section{
+.espacamento_menu_primeira_section {
     margin: 90px 0 0 0;
 }
-.centralizar_section_sobrenos_cinza{
+
+.centralizar_section_sobrenos_cinza {
     background-color: #e4e4e4;
     display: flex;
     justify-content: center;
 }
 
-.div_sobrenos{
+.div_sobrenos {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -408,28 +426,28 @@ body {
     margin: 10% 0 10% 0;
 }
 
-.div_sobrenos p{
+.div_sobrenos p {
     width: 50%;
     margin: 0 15px 0 15px;
 }
 
-.div_sobrenos img{
+.div_sobrenos img {
     margin: 0 15px 0 15px;
     border-radius: 100%;
 }
 
-.div_sobrenos img:hover{
+.div_sobrenos img:hover {
     opacity: 85%;
 }
 
-.div_sobrenos img:active{
+.div_sobrenos img:active {
     width: 100%;
 }
 
 
 /* Galeria */
 
-.section_galeria{
+.section_galeria {
     display: flex;
     justify-content: center;
 
@@ -438,7 +456,7 @@ body {
 
 }
 
-.div_galeria{
+.div_galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -446,19 +464,19 @@ body {
     width: 60%;
 }
 
-.div_galeria img{
+.div_galeria img {
     width: 300px;
     height: 350px;
     margin: 50px 0 0 0;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
-.div_galeria img:hover{
+.div_galeria img:hover {
     opacity: 85%;
 }
 
 
-.div_galeria img:active{
+.div_galeria img:active {
     width: 400px;
     height: 450px;
 }
