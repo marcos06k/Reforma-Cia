@@ -142,7 +142,7 @@ body {
         width: 100%;
         padding: 30px 0 30px;
     }
-    .aaaa{
+    .cards_lado_lado{
         display: flex;
     }
 }
@@ -292,28 +292,51 @@ body {
     width: 100%;
 }
 
-.div_depoimento {
-    display: flex;
-    flex-direction: column;
-    margin: 6% 0 8% 0;
-}
+
 
 .div_depoimento h1 {
     text-align: center;
 }
 
-.carousel-inner {
-    width: 380px;
-    padding: 30px 0 30px;
+
+
+
+
+
+@media (min-width:1401px){
+    #section_depoimento_2-card{
+        display: none;
+    }
+    #section_depoimento_1-card{
+        display: none;
+    }
+    .div_depoimento {
+        width: 1380px;
+        display: flex;
+        flex-direction: column;
+        margin: 6% 0 8% 0;
+    }
+    .card_depoimento {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin: 2% 0 2% 120px;
+        width: 300px;
+        height: 200px;
+    }
+    .carousel-inner {
+        width: 100%;
+        padding: 30px 0 30px;
+    }
+    .cards_lado_lado{
+        display: flex;
+    }
 }
 
-
-
-
-
-
-@media (min-width:870px) {
-    #section_depoimento_max-768px{
+@media (min-width:870px) and (max-width:1400px){
+    #section_depoimento_3-card{
+        display: none;
+    }
+    #section_depoimento_1-card{
         display: none;
     }
     .div_depoimento {
@@ -333,17 +356,23 @@ body {
         width: 100%;
         padding: 30px 0 30px;
     }
-    .aaaa{
+    .cards_lado_lado{
         display: flex;
     }
 }
 
-
-
-/* cell */
 @media (max-width: 869px) {
-    #section_depoimento_min-769px{
+    #section_depoimento_3-card{
         display: none;
+    }
+    #section_depoimento_2-card{
+        display: none;
+    }
+    .div_depoimento {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        margin: 6% 0 8% 0;
     }
     .card_depoimento {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -352,8 +381,11 @@ body {
         width: 300px;
         height: 200px;
     }
+    .card_depoimento h6{
+        padding: 10px 0 0 0;
+    }
     .carousel-inner {
-        width: 380px;
+        width: 100%;
         padding: 30px 0 30px;
     }
 }
