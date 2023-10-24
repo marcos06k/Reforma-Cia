@@ -237,9 +237,6 @@ body {
 
     margin: 0 0 0 0;
     width: 100%;
-
-
-
 }
 
 .div_depoimentos {
@@ -250,7 +247,6 @@ body {
     width: 60%;
     margin: 8% 0 9% 0;
     border-radius: 15px;
-
 }
 
 .div_depoimentos_flex {
@@ -260,7 +256,6 @@ body {
     flex-wrap: wrap;
 
     width: 100%;
-
 }
 
 .card_depoimento {
@@ -282,6 +277,85 @@ body {
 .h6_pessoa {
     font-size: 15px;
     margin: 3% 5% 0% 5%;
+}
+
+/* Depoimentos */
+
+/* parte do servicos realizados */
+.centralizar_section_depoimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 0 0;
+
+    width: 100%;
+}
+
+.div_depoimento {
+    display: flex;
+    flex-direction: column;
+    margin: 6% 0 8% 0;
+}
+
+.div_depoimento h1 {
+    text-align: center;
+}
+
+.carousel-inner {
+    width: 380px;
+    padding: 30px 0 30px;
+}
+
+
+
+
+
+
+@media (min-width:870px) {
+    #section_depoimento_max-768px{
+        display: none;
+    }
+    .div_depoimento {
+        width: 870px;
+        display: flex;
+        flex-direction: column;
+        margin: 6% 0 8% 0;
+    }
+    .card_depoimento {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin: 2% 0 2% 90px;
+        width: 300px;
+        height: 200px;
+    }
+    .carousel-inner {
+        width: 100%;
+        padding: 30px 0 30px;
+    }
+    .aaaa{
+        display: flex;
+    }
+}
+
+
+
+/* cell */
+@media (max-width: 869px) {
+    #section_depoimento_min-769px{
+        display: none;
+    }
+    .card_depoimento {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin: 2% 0 2% 41px;
+        width: 300px;
+        height: 200px;
+    }
+    .carousel-inner {
+        width: 380px;
+        padding: 30px 0 30px;
+    }
 }
 
 
